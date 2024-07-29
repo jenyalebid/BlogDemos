@@ -25,7 +25,7 @@ struct BlogDemosApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HorizontalPagingScrollView()
         }
         .modelContainer(sharedModelContainer)
     }
